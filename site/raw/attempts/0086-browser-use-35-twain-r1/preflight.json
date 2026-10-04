@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "35-twain",
+  "category": "Quotes to Scrape",
+  "repeat": 1,
+  "position": 86,
+  "artifact_dir": "results/publication-availability/attempts/0086-browser-use-35-twain-r1",
+  "started_at": "2026-10-04T01:26:01.948933+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

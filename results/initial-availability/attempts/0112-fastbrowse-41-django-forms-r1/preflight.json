@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "41-django-forms",
+  "category": "Django docs",
+  "repeat": 1,
+  "position": 112,
+  "artifact_dir": "results/initial-availability/attempts/0112-fastbrowse-41-django-forms-r1",
+  "started_at": "2026-10-04T01:22:05.566228+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

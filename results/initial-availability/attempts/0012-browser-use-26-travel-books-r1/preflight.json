@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "26-travel-books",
+  "category": "Books to Scrape",
+  "repeat": 1,
+  "position": 12,
+  "artifact_dir": "results/initial-availability/attempts/0012-browser-use-26-travel-books-r1",
+  "started_at": "2026-10-04T01:22:05.520897+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

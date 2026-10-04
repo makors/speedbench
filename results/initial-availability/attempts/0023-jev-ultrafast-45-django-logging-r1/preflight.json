@@ -1,0 +1,17 @@
+{
+  "agent": "jev-ultrafast",
+  "task_id": "45-django-logging",
+  "category": "Django docs",
+  "repeat": 1,
+  "position": 23,
+  "artifact_dir": "results/initial-availability/attempts/0023-jev-ultrafast-45-django-logging-r1",
+  "started_at": "2026-10-04T01:22:05.524900+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing TYPESAFE_API_KEY",
+    "missing TEXT_MODEL_API_KEY"
+  ]
+}

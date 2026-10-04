@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "48-rust-option",
+  "category": "Rust docs",
+  "repeat": 1,
+  "position": 40,
+  "artifact_dir": "results/publication-availability/attempts/0040-browser-use-48-rust-option-r1",
+  "started_at": "2026-10-04T01:26:01.922036+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

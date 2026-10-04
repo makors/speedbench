@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "suite": "live-navigation-50-v1",
+  "description": "50 original navigation goals written for SpeedBench; ten live sites, five goals per site. No task was copied from upstream evals.",
+  "tasks": [
+    {
+      "id": "01-ada-lovelace",
+      "category": "Wikipedia",
+      "start_url": "https://en.wikipedia.org/wiki/Main_Page",
+      "goal": "Use Wikipedia to find the biography of Ada Lovelace. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://en\\.wikipedia\\.org/wiki/Ada_Lovelace/?(?:[?#].*)?$",
+        "heading_regex": "Ada Lovelace"
+      },
+      "target_url": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+    },
+    {
+      "id": "02-antikythera",
+      "category": "Wikipedia",
+      "start_url": "https://en.wikipedia.org/wiki/Main_Page",
+      "goal": "Find Wikipedia\u2019s article about the Antikythera mechanism. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://en\\.wikipedia\\.org/wiki/Antikythera_mechanism/?(?:[?#].*)?$",
+        "heading_regex": "Antikythera mechanism"
+      },
+      "target_url": "https://en.wikipedia.org/wiki/Antikythera_mechanism"
+    },
+    {
+      "id": "03-octopus",
+      "category": "Wikipedia",
+      "start_url": "https://en.wikipedia.org/wiki/Main_Page",
+      "goal": "Find the encyclopedia article for octopuses, rather than an individual species. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://en\\.wikipedia\\.org/wiki/Octopus/?(?:[?#].*)?$",
+        "heading_regex": "Octopus"
+      },
+      "target_url": "https://en.wikipedia.org/wiki/Octopus"
+    },
+    {
+      "id": "04-plate-tectonics",
+      "category": "Wikipedia",
+      "start_url": "https://en.wikipedia.org/wiki/Main_Page",
+      "goal": "Open the Wikipedia article explaining plate tectonics. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://en\\.wikipedia\\.org/wiki/Plate_tectonics/?(?:[?#].*)?$",
+        "heading_regex": "Plate tectonics"
+      },
+      "target_url": "https://en.wikipedia.org/wiki/Plate_tectonics"
+    },
+    {
+      "id": "05-braille",
+      "category": "Wikipedia",
+      "start_url": "https://en.wikipedia.org/wiki/Main_Page",
+      "goal": "Locate Wikipedia\u2019s article about the Braille writing system. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://en\\.wikipedia\\.org/wiki/Braille/?(?:[?#].*)?$",
+        "heading_regex": "Braille"
+      },
+      "target_url": "https://en.wikipedia.org/wiki/Braille"
+    },
+    {
+      "id": "06-pathlib",
+      "category": "Python docs",
+      "start_url": "https://docs.python.org/3/",
+      "goal": "Locate the Python standard-library documentation for pathlib. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://docs\\.python\\.org/3/library/pathlib\\.html/?(?:[?#].*)?$",
+        "heading_regex": "pathlib"
+      },
+      "target_url": "https://docs.python.org/3/library/pathlib.html"
+    },
+    {
+      "id": "07-sqlite3",
+      "category": "Python docs",
+      "start_url": "https://docs.python.org/3/",
+      "goal": "Find the Python module documentation explaining sqlite3 database access. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://docs\\.python\\.org/3/library/sqlite3\\.html/?(?:[?#].*)?$",
+        "heading_regex": "sqlite3"
+      },
+      "target_url": "https://docs.python.org/3/library/sqlite3.html"
+    },
+    {
+      "id": "08-itertools",
+      "category": "Python docs",
+      "start_url": "https://docs.python.org/3/",
+      "goal": "Open the standard-library reference for itertools. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://docs\\.python\\.org/3/library/itertools\\.html/?(?:[?#].*)?$",
+        "heading_regex": "itertools"
+      },
+      "target_url": "https://docs.python.org/3/library/itertools.html"
+    },
+    {
+      "id": "09-argparse",
+      "category": "Python docs",
+      "start_url": "https://docs.python.org/3/",
+      "goal": "Find the Python reference for building command-line parsers with argparse. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://docs\\.python\\.org/3/library/argparse\\.html/?(?:[?#].*)?$",
+        "heading_regex": "argparse"
+      },
+      "target_url": "https://docs.python.org/3/library/argparse.html"
+    },
+    {
+      "id": "10-dataclasses",
+      "category": "Python docs",
+      "start_url": "https://docs.python.org/3/",
+      "goal": "Locate Python\u2019s documentation for the dataclasses module. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://docs\\.python\\.org/3/library/dataclasses\\.html/?(?:[?#].*)?$",
+        "heading_regex": "dataclasses"
+      },
+      "target_url": "https://docs.python.org/3/library/dataclasses.html"
+    },
+    {
+      "id": "11-abortcontroller",
+      "category": "MDN",
+      "start_url": "https://developer.mozilla.org/en-US/docs/Web",
+      "goal": "Find MDN\u2019s Web API reference page for AbortController. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://developer\\.mozilla\\.org/en\\-US/docs/Web/API/AbortController/?(?:[?#].*)?$",
+        "heading_regex": "AbortController"
+      },
+      "target_url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
+    },
+    {
+      "id": "12-intersection-observer",
+      "category": "MDN",
+      "start_url": "https://developer.mozilla.org/en-US/docs/Web",
+      "goal": "Find the MDN API reference for IntersectionObserver. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://developer\\.mozilla\\.org/en\\-US/docs/Web/API/IntersectionObserver/?(?:[?#].*)?$",
+        "heading_regex": "IntersectionObserver"
+      },
+      "target_url": "https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver"
+    },
+    {
+      "id": "13-grid",
+      "category": "MDN",
+      "start_url": "https://developer.mozilla.org/en-US/docs/Web",
+      "goal": "Locate MDN\u2019s CSS reference for the grid shorthand property. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://developer\\.mozilla\\.org/en\\-US/docs/Web/CSS/Reference/Properties/grid/?(?:[?#].*)?$",
+        "heading_regex": "grid"
+      },
+      "target_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid"
+    },
+    {
+      "id": "14-array-map",
+      "category": "MDN",
+      "start_url": "https://developer.mozilla.org/en-US/docs/Web",
+      "goal": "Open MDN\u2019s JavaScript reference for Array.prototype.map(). Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://developer\\.mozilla\\.org/en\\-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map/?(?:[?#].*)?$",
+        "heading_regex": "Array\\.prototype\\.map"
+      },
+      "target_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
+    },
+    {
+      "id": "15-http-429",
+      "category": "MDN",
+      "start_url": "https://developer.mozilla.org/en-US/docs/Web",
+      "goal": "Locate MDN\u2019s HTTP reference explaining the 429 Too Many Requests status. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://developer\\.mozilla\\.org/en\\-US/docs/Web/HTTP/Reference/Status/429/?(?:[?#].*)?$",
+        "heading_regex": "429"
+      },
+      "target_url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/429"
+    },
+    {
+      "id": "16-numpy-mean",
+      "category": "NumPy docs",
+      "start_url": "https://numpy.org/doc/stable/",
+      "goal": "Find the NumPy API reference for numpy.mean. Stop with that reference page open and its main heading visible.",
+      "target_url": "https://numpy.org/doc/stable/reference/generated/numpy.mean.html",
+      "expected": {
+        "url_regex": "^https://numpy\\.org/doc/stable/reference/generated/numpy\\.mean\\.html(?:[?#].*)?$",
+        "heading_regex": "numpy\\.mean"
+      }
+    },
+    {
+      "id": "17-numpy-unique",
+      "category": "NumPy docs",
+      "start_url": "https://numpy.org/doc/stable/",
+      "goal": "Find the NumPy API reference for numpy.unique. Stop with that reference page open and its main heading visible.",
+      "target_url": "https://numpy.org/doc/stable/reference/generated/numpy.unique.html",
+      "expected": {
+        "url_regex": "^https://numpy\\.org/doc/stable/reference/generated/numpy\\.unique\\.html(?:[?#].*)?$",
+        "heading_regex": "numpy\\.unique"
+      }
+    },
+    {
+      "id": "18-numpy-ndarray",
+      "category": "NumPy docs",
+      "start_url": "https://numpy.org/doc/stable/",
+      "goal": "Find the NumPy API reference for numpy.ndarray. Stop with that reference page open and its main heading visible.",
+      "target_url": "https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html",
+      "expected": {
+        "url_regex": "^https://numpy\\.org/doc/stable/reference/generated/numpy\\.ndarray\\.html(?:[?#].*)?$",
+        "heading_regex": "numpy\\.ndarray"
+      }
+    },
+    {
+      "id": "19-numpy-svd",
+      "category": "NumPy docs",
+      "start_url": "https://numpy.org/doc/stable/",
+      "goal": "Find the NumPy API reference for numpy.linalg.svd. Stop with that reference page open and its main heading visible.",
+      "target_url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.svd.html",
+      "expected": {
+        "url_regex": "^https://numpy\\.org/doc/stable/reference/generated/numpy\\.linalg\\.svd\\.html(?:[?#].*)?$",
+        "heading_regex": "numpy\\.linalg\\.svd"
+      }
+    },
+    {
+      "id": "20-numpy-linspace",
+      "category": "NumPy docs",
+      "start_url": "https://numpy.org/doc/stable/",
+      "goal": "Find the NumPy API reference for numpy.linspace. Stop with that reference page open and its main heading visible.",
+      "target_url": "https://numpy.org/doc/stable/reference/generated/numpy.linspace.html",
+      "expected": {
+        "url_regex": "^https://numpy\\.org/doc/stable/reference/generated/numpy\\.linspace\\.html(?:[?#].*)?$",
+        "heading_regex": "numpy\\.linspace"
+      }
+    },
+    {
+      "id": "21-git-scm",
+      "category": "GitHub",
+      "start_url": "https://github.com/",
+      "goal": "Find the canonical git/git repository on GitHub. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://github\\.com/git/git/?(?:[?#].*)?$",
+        "heading_regex": "git"
+      },
+      "target_url": "https://github.com/git/git"
+    },
+    {
+      "id": "22-uv",
+      "category": "GitHub",
+      "start_url": "https://github.com/",
+      "goal": "Find Astral\u2019s uv repository on GitHub. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://github\\.com/astral\\-sh/uv/?(?:[?#].*)?$",
+        "heading_regex": "uv"
+      },
+      "target_url": "https://github.com/astral-sh/uv"
+    },
+    {
+      "id": "23-playwright",
+      "category": "GitHub",
+      "start_url": "https://github.com/",
+      "goal": "Open Microsoft\u2019s playwright repository on GitHub. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://github\\.com/microsoft/playwright/?(?:[?#].*)?$",
+        "heading_regex": "playwright"
+      },
+      "target_url": "https://github.com/microsoft/playwright"
+    },
+    {
+      "id": "24-scikit-learn",
+      "category": "GitHub",
+      "start_url": "https://github.com/",
+      "goal": "Find the scikit-learn/scikit-learn repository on GitHub. Stop with its README installation section visible.",
+      "expected": {
+        "url_regex": "^https://github\\.com/scikit\\-learn/scikit\\-learn/?(?:[?#].*)?$",
+        "heading_regex": "Installation"
+      },
+      "target_url": "https://github.com/scikit-learn/scikit-learn"
+    },
+    {
+      "id": "25-duckdb",
+      "category": "GitHub",
+      "start_url": "https://github.com/",
+      "goal": "Open the duckdb/duckdb repository on GitHub. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://github\\.com/duckdb/duckdb/?(?:[?#].*)?$",
+        "heading_regex": "duckdb"
+      },
+      "target_url": "https://github.com/duckdb/duckdb"
+    },
+    {
+      "id": "26-travel-books",
+      "category": "Books to Scrape",
+      "start_url": "https://books.toscrape.com/",
+      "goal": "Navigate to the Travel category of Books to Scrape. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://books\\.toscrape\\.com/catalogue/category/books/travel_2/index\\.html/?(?:[?#].*)?$",
+        "heading_regex": "Travel"
+      },
+      "target_url": "https://books.toscrape.com/catalogue/category/books/travel_2/index.html"
+    },
+    {
+      "id": "27-mystery-books",
+      "category": "Books to Scrape",
+      "start_url": "https://books.toscrape.com/",
+      "goal": "Show the Mystery category on Books to Scrape. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://books\\.toscrape\\.com/catalogue/category/books/mystery_3/index\\.html/?(?:[?#].*)?$",
+        "heading_regex": "Mystery"
+      },
+      "target_url": "https://books.toscrape.com/catalogue/category/books/mystery_3/index.html"
+    },
+    {
+      "id": "28-poetry-books",
+      "category": "Books to Scrape",
+      "start_url": "https://books.toscrape.com/",
+      "goal": "Find and open the Poetry book category. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://books\\.toscrape\\.com/catalogue/category/books/poetry_23/index\\.html/?(?:[?#].*)?$",
+        "heading_regex": "Poetry"
+      },
+      "target_url": "https://books.toscrape.com/catalogue/category/books/poetry_23/index.html"
+    },
+    {
+      "id": "29-science-books",
+      "category": "Books to Scrape",
+      "start_url": "https://books.toscrape.com/",
+      "goal": "Open the Science category, rather than Science Fiction. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://books\\.toscrape\\.com/catalogue/category/books/science_22/index\\.html/?(?:[?#].*)?$",
+        "heading_regex": "Science"
+      },
+      "target_url": "https://books.toscrape.com/catalogue/category/books/science_22/index.html"
+    },
+    {
+      "id": "30-philosophy-books",
+      "category": "Books to Scrape",
+      "start_url": "https://books.toscrape.com/",
+      "goal": "Navigate to the Philosophy book category. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://books\\.toscrape\\.com/catalogue/category/books/philosophy_7/index\\.html/?(?:[?#].*)?$",
+        "heading_regex": "Philosophy"
+      },
+      "target_url": "https://books.toscrape.com/catalogue/category/books/philosophy_7/index.html"
+    },
+    {
+      "id": "31-einstein",
+      "category": "Quotes to Scrape",
+      "start_url": "https://quotes.toscrape.com/",
+      "goal": "Open Albert Einstein\u2019s author biography on Quotes to Scrape. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://quotes\\.toscrape\\.com/author/Albert\\-Einstein/?(?:[?#].*)?$",
+        "heading_regex": "Albert Einstein"
+      },
+      "target_url": "https://quotes.toscrape.com/author/Albert-Einstein"
+    },
+    {
+      "id": "32-austen",
+      "category": "Quotes to Scrape",
+      "start_url": "https://quotes.toscrape.com/",
+      "goal": "Find Jane Austen\u2019s author biography on Quotes to Scrape. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://quotes\\.toscrape\\.com/author/Jane\\-Austen/?(?:[?#].*)?$",
+        "heading_regex": "Jane Austen"
+      },
+      "target_url": "https://quotes.toscrape.com/author/Jane-Austen"
+    },
+    {
+      "id": "33-rowling",
+      "category": "Quotes to Scrape",
+      "start_url": "https://quotes.toscrape.com/",
+      "goal": "Locate J. K. Rowling\u2019s author biography on Quotes to Scrape. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://quotes\\.toscrape\\.com/author/J\\-K\\-Rowling/?(?:[?#].*)?$",
+        "heading_regex": "J\\.?\\s*K\\.?\\s*Rowling"
+      },
+      "target_url": "https://quotes.toscrape.com/author/J-K-Rowling"
+    },
+    {
+      "id": "34-marilyn",
+      "category": "Quotes to Scrape",
+      "start_url": "https://quotes.toscrape.com/",
+      "goal": "Find Marilyn Monroe\u2019s author biography on Quotes to Scrape. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://quotes\\.toscrape\\.com/author/Marilyn-Monroe/?(?:[?#].*)?$",
+        "heading_regex": "Marilyn Monroe"
+      },
+      "target_url": "https://quotes.toscrape.com/author/Marilyn-Monroe/"
+    },
+    {
+      "id": "35-twain",
+      "category": "Quotes to Scrape",
+      "start_url": "https://quotes.toscrape.com/",
+      "goal": "Navigate to Mark Twain\u2019s biography on Quotes to Scrape. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://quotes\\.toscrape\\.com/author/Mark\\-Twain/?(?:[?#].*)?$",
+        "heading_regex": "Mark Twain"
+      },
+      "target_url": "https://quotes.toscrape.com/author/Mark-Twain"
+    },
+    {
+      "id": "36-attention-paper",
+      "category": "arXiv",
+      "start_url": "https://arxiv.org/",
+      "goal": "Find the abstract page for the paper Attention Is All You Need. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://arxiv\\.org/abs/1706\\.03762(?:v\\d+)?/?(?:[?#].*)?$",
+        "heading_regex": "Attention Is All You Need"
+      },
+      "target_url": "https://arxiv.org/abs/1706.03762"
+    },
+    {
+      "id": "37-resnet-paper",
+      "category": "arXiv",
+      "start_url": "https://arxiv.org/",
+      "goal": "Locate the abstract page for Deep Residual Learning for Image Recognition. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://arxiv\\.org/abs/1512\\.03385(?:v\\d+)?/?(?:[?#].*)?$",
+        "heading_regex": "Deep Residual Learning for Image Recognition"
+      },
+      "target_url": "https://arxiv.org/abs/1512.03385"
+    },
+    {
+      "id": "38-adam-paper",
+      "category": "arXiv",
+      "start_url": "https://arxiv.org/",
+      "goal": "Find the abstract page for Adam: A Method for Stochastic Optimization. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://arxiv\\.org/abs/1412\\.6980(?:v\\d+)?/?(?:[?#].*)?$",
+        "heading_regex": "Adam: A Method for Stochastic Optimization"
+      },
+      "target_url": "https://arxiv.org/abs/1412.6980"
+    },
+    {
+      "id": "39-bert-paper",
+      "category": "arXiv",
+      "start_url": "https://arxiv.org/",
+      "goal": "Locate BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://arxiv\\.org/abs/1810\\.04805(?:v\\d+)?/?(?:[?#].*)?$",
+        "heading_regex": "BERT: Pre-training of Deep Bidirectional Transformers"
+      },
+      "target_url": "https://arxiv.org/abs/1810.04805"
+    },
+    {
+      "id": "40-diffusion-paper",
+      "category": "arXiv",
+      "start_url": "https://arxiv.org/",
+      "goal": "Find the abstract page of Denoising Diffusion Probabilistic Models. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://arxiv\\.org/abs/2006\\.11239(?:v\\d+)?/?(?:[?#].*)?$",
+        "heading_regex": "Denoising Diffusion Probabilistic Models"
+      },
+      "target_url": "https://arxiv.org/abs/2006.11239"
+    },
+    {
+      "id": "41-django-forms",
+      "category": "Django docs",
+      "start_url": "https://docs.djangoproject.com/en/5.2/",
+      "goal": "In the Django 5.2 documentation, find the guide for forms. Stop with that guide open and its main heading visible.",
+      "target_url": "https://docs.djangoproject.com/en/5.2/topics/forms/",
+      "expected": {
+        "url_regex": "^https://docs\\.djangoproject\\.com/en/5\\.2/topics/forms/?(?:[?#].*)?$",
+        "heading_regex": "Working with forms"
+      }
+    },
+    {
+      "id": "42-django-testing",
+      "category": "Django docs",
+      "start_url": "https://docs.djangoproject.com/en/5.2/",
+      "goal": "In the Django 5.2 documentation, find the guide for testing. Stop with that guide open and its main heading visible.",
+      "target_url": "https://docs.djangoproject.com/en/5.2/topics/testing/overview/",
+      "expected": {
+        "url_regex": "^https://docs\\.djangoproject\\.com/en/5\\.2/topics/testing/overview/?(?:[?#].*)?$",
+        "heading_regex": "Writing and running tests"
+      }
+    },
+    {
+      "id": "43-django-models",
+      "category": "Django docs",
+      "start_url": "https://docs.djangoproject.com/en/5.2/",
+      "goal": "In the Django 5.2 documentation, find the guide for models. Stop with that guide open and its main heading visible.",
+      "target_url": "https://docs.djangoproject.com/en/5.2/topics/db/models/",
+      "expected": {
+        "url_regex": "^https://docs\\.djangoproject\\.com/en/5\\.2/topics/db/models/?(?:[?#].*)?$",
+        "heading_regex": "Models"
+      }
+    },
+    {
+      "id": "44-django-cache",
+      "category": "Django docs",
+      "start_url": "https://docs.djangoproject.com/en/5.2/",
+      "goal": "In the Django 5.2 documentation, find the guide for cache. Stop with that guide open and its main heading visible.",
+      "target_url": "https://docs.djangoproject.com/en/5.2/topics/cache/",
+      "expected": {
+        "url_regex": "^https://docs\\.djangoproject\\.com/en/5\\.2/topics/cache/?(?:[?#].*)?$",
+        "heading_regex": "Django.s cache framework"
+      }
+    },
+    {
+      "id": "45-django-logging",
+      "category": "Django docs",
+      "start_url": "https://docs.djangoproject.com/en/5.2/",
+      "goal": "In the Django 5.2 documentation, find the guide for logging. Stop with that guide open and its main heading visible.",
+      "target_url": "https://docs.djangoproject.com/en/5.2/topics/logging/",
+      "expected": {
+        "url_regex": "^https://docs\\.djangoproject\\.com/en/5\\.2/topics/logging/?(?:[?#].*)?$",
+        "heading_regex": "Logging"
+      }
+    },
+    {
+      "id": "46-rust-vec",
+      "category": "Rust docs",
+      "start_url": "https://doc.rust-lang.org/std/",
+      "goal": "Find the Rust standard-library reference for the Vec struct. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://doc\\.rust\\-lang\\.org/std/vec/struct\\.Vec\\.html/?(?:[?#].*)?$",
+        "heading_regex": "Vec"
+      },
+      "target_url": "https://doc.rust-lang.org/std/vec/struct.Vec.html"
+    },
+    {
+      "id": "47-rust-hashmap",
+      "category": "Rust docs",
+      "start_url": "https://doc.rust-lang.org/std/",
+      "goal": "Find the standard-library reference for HashMap. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://doc\\.rust\\-lang\\.org/std/collections/struct\\.HashMap\\.html/?(?:[?#].*)?$",
+        "heading_regex": "HashMap"
+      },
+      "target_url": "https://doc.rust-lang.org/std/collections/struct.HashMap.html"
+    },
+    {
+      "id": "48-rust-option",
+      "category": "Rust docs",
+      "start_url": "https://doc.rust-lang.org/std/",
+      "goal": "Open the Rust standard-library reference for the Option enum. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://doc\\.rust\\-lang\\.org/std/option/enum\\.Option\\.html/?(?:[?#].*)?$",
+        "heading_regex": "Option"
+      },
+      "target_url": "https://doc.rust-lang.org/std/option/enum.Option.html"
+    },
+    {
+      "id": "49-rust-result",
+      "category": "Rust docs",
+      "start_url": "https://doc.rust-lang.org/std/",
+      "goal": "Find the Rust standard-library reference for the Result enum. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://doc\\.rust\\-lang\\.org/std/result/enum\\.Result\\.html/?(?:[?#].*)?$",
+        "heading_regex": "Result"
+      },
+      "target_url": "https://doc.rust-lang.org/std/result/enum.Result.html"
+    },
+    {
+      "id": "50-rust-duration",
+      "category": "Rust docs",
+      "start_url": "https://doc.rust-lang.org/std/",
+      "goal": "Open the Rust standard-library reference for the Duration struct. Stop with that page open and its main heading visible.",
+      "expected": {
+        "url_regex": "^https://doc\\.rust\\-lang\\.org/std/time/struct\\.Duration\\.html/?(?:[?#].*)?$",
+        "heading_regex": "Duration"
+      },
+      "target_url": "https://doc.rust-lang.org/std/time/struct.Duration.html"
+    }
+  ]
+}

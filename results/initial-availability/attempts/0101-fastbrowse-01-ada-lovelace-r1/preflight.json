@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "01-ada-lovelace",
+  "category": "Wikipedia",
+  "repeat": 1,
+  "position": 101,
+  "artifact_dir": "results/initial-availability/attempts/0101-fastbrowse-01-ada-lovelace-r1",
+  "started_at": "2026-10-04T01:22:05.559464+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

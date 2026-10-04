@@ -1,0 +1,17 @@
+{
+  "agent": "jev-ultrafast",
+  "task_id": "26-travel-books",
+  "category": "Books to Scrape",
+  "repeat": 1,
+  "position": 10,
+  "artifact_dir": "results/publication-availability/attempts/0010-jev-ultrafast-26-travel-books-r1",
+  "started_at": "2026-10-04T01:26:01.905985+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing TYPESAFE_API_KEY",
+    "missing TEXT_MODEL_API_KEY"
+  ]
+}

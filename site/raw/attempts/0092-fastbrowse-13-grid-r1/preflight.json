@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "13-grid",
+  "category": "MDN",
+  "repeat": 1,
+  "position": 92,
+  "artifact_dir": "results/publication-availability/attempts/0092-fastbrowse-13-grid-r1",
+  "started_at": "2026-10-04T01:26:01.953588+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

@@ -1,0 +1,752 @@
+[
+  {
+    "agent": "fastbrowse",
+    "task_id": "09-argparse",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "09-argparse",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "09-argparse",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "49-rust-result",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "49-rust-result",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "49-rust-result",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "28-poetry-books",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "28-poetry-books",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "28-poetry-books",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "26-travel-books",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "26-travel-books",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "26-travel-books",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "07-sqlite3",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "07-sqlite3",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "07-sqlite3",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "17-polars",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "17-polars",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "17-polars",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "21-git-scm",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "21-git-scm",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "21-git-scm",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "45-django-logging",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "45-django-logging",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "45-django-logging",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "40-diffusion-paper",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "40-diffusion-paper",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "40-diffusion-paper",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "06-pathlib",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "06-pathlib",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "06-pathlib",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "05-braille",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "05-braille",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "05-braille",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "16-httpx",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "16-httpx",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "16-httpx",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "36-attention-paper",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "36-attention-paper",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "36-attention-paper",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "48-rust-option",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "48-rust-option",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "48-rust-option",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "15-http-429",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "15-http-429",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "15-http-429",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "29-science-books",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "29-science-books",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "29-science-books",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "44-django-cache",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "44-django-cache",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "44-django-cache",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "38-adam-paper",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "38-adam-paper",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "38-adam-paper",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "02-antikythera",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "02-antikythera",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "02-antikythera",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "31-einstein",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "31-einstein",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "31-einstein",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "08-itertools",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "08-itertools",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "08-itertools",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "18-pydantic",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "18-pydantic",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "18-pydantic",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "47-rust-hashmap",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "47-rust-hashmap",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "47-rust-hashmap",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "20-pytest",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "20-pytest",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "20-pytest",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "37-resnet-paper",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "37-resnet-paper",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "37-resnet-paper",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "25-duckdb",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "25-duckdb",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "25-duckdb",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "23-playwright",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "23-playwright",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "23-playwright",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "22-uv",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "22-uv",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "22-uv",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "35-twain",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "35-twain",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "35-twain",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "50-rust-duration",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "50-rust-duration",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "50-rust-duration",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "13-grid",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "13-grid",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "13-grid",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "39-bert-paper",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "39-bert-paper",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "39-bert-paper",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "46-rust-vec",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "46-rust-vec",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "46-rust-vec",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "01-ada-lovelace",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "01-ada-lovelace",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "01-ada-lovelace",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "32-austen",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "32-austen",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "32-austen",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "10-dataclasses",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "10-dataclasses",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "10-dataclasses",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "14-array-map",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "14-array-map",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "14-array-map",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "41-django-forms",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "41-django-forms",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "41-django-forms",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "24-scikit-learn",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "24-scikit-learn",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "24-scikit-learn",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "34-marilyn",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "34-marilyn",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "34-marilyn",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "19-rich",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "19-rich",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "19-rich",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "12-intersection-observer",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "12-intersection-observer",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "12-intersection-observer",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "04-plate-tectonics",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "04-plate-tectonics",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "04-plate-tectonics",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "43-django-models",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "43-django-models",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "43-django-models",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "11-abortcontroller",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "11-abortcontroller",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "11-abortcontroller",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "30-philosophy-books",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "30-philosophy-books",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "30-philosophy-books",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "33-rowling",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "33-rowling",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "33-rowling",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "27-mystery-books",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "27-mystery-books",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "27-mystery-books",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "03-octopus",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "03-octopus",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "03-octopus",
+    "repeat": 1
+  },
+  {
+    "agent": "jev-ultrafast",
+    "task_id": "42-django-testing",
+    "repeat": 1
+  },
+  {
+    "agent": "fastbrowse",
+    "task_id": "42-django-testing",
+    "repeat": 1
+  },
+  {
+    "agent": "browser-use",
+    "task_id": "42-django-testing",
+    "repeat": 1
+  }
+]

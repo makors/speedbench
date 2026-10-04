@@ -1,0 +1,17 @@
+{
+  "agent": "jev-ultrafast",
+  "task_id": "41-django-forms",
+  "category": "Django docs",
+  "repeat": 1,
+  "position": 113,
+  "artifact_dir": "results/initial-availability/attempts/0113-jev-ultrafast-41-django-forms-r1",
+  "started_at": "2026-10-04T01:22:05.566862+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing TYPESAFE_API_KEY",
+    "missing TEXT_MODEL_API_KEY"
+  ]
+}

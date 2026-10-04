@@ -1,0 +1,151 @@
+agent,task_id,category,repeat,status,attempted,passed,seconds,artifact_url
+fastbrowse,09-argparse,Python docs,1,unavailable,False,False,,raw/attempts/0001-fastbrowse-09-argparse-r1/
+browser-use,09-argparse,Python docs,1,unavailable,False,False,,raw/attempts/0002-browser-use-09-argparse-r1/
+jev-ultrafast,09-argparse,Python docs,1,unavailable,False,False,,raw/attempts/0003-jev-ultrafast-09-argparse-r1/
+fastbrowse,49-rust-result,Rust docs,1,unavailable,False,False,,raw/attempts/0004-fastbrowse-49-rust-result-r1/
+jev-ultrafast,49-rust-result,Rust docs,1,unavailable,False,False,,raw/attempts/0005-jev-ultrafast-49-rust-result-r1/
+browser-use,49-rust-result,Rust docs,1,unavailable,False,False,,raw/attempts/0006-browser-use-49-rust-result-r1/
+fastbrowse,28-poetry-books,Books to Scrape,1,unavailable,False,False,,raw/attempts/0007-fastbrowse-28-poetry-books-r1/
+browser-use,28-poetry-books,Books to Scrape,1,unavailable,False,False,,raw/attempts/0008-browser-use-28-poetry-books-r1/
+jev-ultrafast,28-poetry-books,Books to Scrape,1,unavailable,False,False,,raw/attempts/0009-jev-ultrafast-28-poetry-books-r1/
+jev-ultrafast,26-travel-books,Books to Scrape,1,unavailable,False,False,,raw/attempts/0010-jev-ultrafast-26-travel-books-r1/
+fastbrowse,26-travel-books,Books to Scrape,1,unavailable,False,False,,raw/attempts/0011-fastbrowse-26-travel-books-r1/
+browser-use,26-travel-books,Books to Scrape,1,unavailable,False,False,,raw/attempts/0012-browser-use-26-travel-books-r1/
+browser-use,07-sqlite3,Python docs,1,unavailable,False,False,,raw/attempts/0013-browser-use-07-sqlite3-r1/
+fastbrowse,07-sqlite3,Python docs,1,unavailable,False,False,,raw/attempts/0014-fastbrowse-07-sqlite3-r1/
+jev-ultrafast,07-sqlite3,Python docs,1,unavailable,False,False,,raw/attempts/0015-jev-ultrafast-07-sqlite3-r1/
+browser-use,17-numpy-unique,NumPy docs,1,unavailable,False,False,,raw/attempts/0016-browser-use-17-numpy-unique-r1/
+jev-ultrafast,17-numpy-unique,NumPy docs,1,unavailable,False,False,,raw/attempts/0017-jev-ultrafast-17-numpy-unique-r1/
+fastbrowse,17-numpy-unique,NumPy docs,1,unavailable,False,False,,raw/attempts/0018-fastbrowse-17-numpy-unique-r1/
+fastbrowse,21-git-scm,GitHub,1,unavailable,False,False,,raw/attempts/0019-fastbrowse-21-git-scm-r1/
+jev-ultrafast,21-git-scm,GitHub,1,unavailable,False,False,,raw/attempts/0020-jev-ultrafast-21-git-scm-r1/
+browser-use,21-git-scm,GitHub,1,unavailable,False,False,,raw/attempts/0021-browser-use-21-git-scm-r1/
+fastbrowse,45-django-logging,Django docs,1,unavailable,False,False,,raw/attempts/0022-fastbrowse-45-django-logging-r1/
+jev-ultrafast,45-django-logging,Django docs,1,unavailable,False,False,,raw/attempts/0023-jev-ultrafast-45-django-logging-r1/
+browser-use,45-django-logging,Django docs,1,unavailable,False,False,,raw/attempts/0024-browser-use-45-django-logging-r1/
+browser-use,40-diffusion-paper,arXiv,1,unavailable,False,False,,raw/attempts/0025-browser-use-40-diffusion-paper-r1/
+fastbrowse,40-diffusion-paper,arXiv,1,unavailable,False,False,,raw/attempts/0026-fastbrowse-40-diffusion-paper-r1/
+jev-ultrafast,40-diffusion-paper,arXiv,1,unavailable,False,False,,raw/attempts/0027-jev-ultrafast-40-diffusion-paper-r1/
+fastbrowse,06-pathlib,Python docs,1,unavailable,False,False,,raw/attempts/0028-fastbrowse-06-pathlib-r1/
+browser-use,06-pathlib,Python docs,1,unavailable,False,False,,raw/attempts/0029-browser-use-06-pathlib-r1/
+jev-ultrafast,06-pathlib,Python docs,1,unavailable,False,False,,raw/attempts/0030-jev-ultrafast-06-pathlib-r1/
+fastbrowse,05-braille,Wikipedia,1,unavailable,False,False,,raw/attempts/0031-fastbrowse-05-braille-r1/
+browser-use,05-braille,Wikipedia,1,unavailable,False,False,,raw/attempts/0032-browser-use-05-braille-r1/
+jev-ultrafast,05-braille,Wikipedia,1,unavailable,False,False,,raw/attempts/0033-jev-ultrafast-05-braille-r1/
+fastbrowse,16-numpy-mean,NumPy docs,1,unavailable,False,False,,raw/attempts/0034-fastbrowse-16-numpy-mean-r1/
+jev-ultrafast,16-numpy-mean,NumPy docs,1,unavailable,False,False,,raw/attempts/0035-jev-ultrafast-16-numpy-mean-r1/
+browser-use,16-numpy-mean,NumPy docs,1,unavailable,False,False,,raw/attempts/0036-browser-use-16-numpy-mean-r1/
+fastbrowse,36-attention-paper,arXiv,1,unavailable,False,False,,raw/attempts/0037-fastbrowse-36-attention-paper-r1/
+jev-ultrafast,36-attention-paper,arXiv,1,unavailable,False,False,,raw/attempts/0038-jev-ultrafast-36-attention-paper-r1/
+browser-use,36-attention-paper,arXiv,1,unavailable,False,False,,raw/attempts/0039-browser-use-36-attention-paper-r1/
+browser-use,48-rust-option,Rust docs,1,unavailable,False,False,,raw/attempts/0040-browser-use-48-rust-option-r1/
+fastbrowse,48-rust-option,Rust docs,1,unavailable,False,False,,raw/attempts/0041-fastbrowse-48-rust-option-r1/
+jev-ultrafast,48-rust-option,Rust docs,1,unavailable,False,False,,raw/attempts/0042-jev-ultrafast-48-rust-option-r1/
+jev-ultrafast,15-http-429,MDN,1,unavailable,False,False,,raw/attempts/0043-jev-ultrafast-15-http-429-r1/
+fastbrowse,15-http-429,MDN,1,unavailable,False,False,,raw/attempts/0044-fastbrowse-15-http-429-r1/
+browser-use,15-http-429,MDN,1,unavailable,False,False,,raw/attempts/0045-browser-use-15-http-429-r1/
+browser-use,29-science-books,Books to Scrape,1,unavailable,False,False,,raw/attempts/0046-browser-use-29-science-books-r1/
+jev-ultrafast,29-science-books,Books to Scrape,1,unavailable,False,False,,raw/attempts/0047-jev-ultrafast-29-science-books-r1/
+fastbrowse,29-science-books,Books to Scrape,1,unavailable,False,False,,raw/attempts/0048-fastbrowse-29-science-books-r1/
+fastbrowse,44-django-cache,Django docs,1,unavailable,False,False,,raw/attempts/0049-fastbrowse-44-django-cache-r1/
+browser-use,44-django-cache,Django docs,1,unavailable,False,False,,raw/attempts/0050-browser-use-44-django-cache-r1/
+jev-ultrafast,44-django-cache,Django docs,1,unavailable,False,False,,raw/attempts/0051-jev-ultrafast-44-django-cache-r1/
+browser-use,38-adam-paper,arXiv,1,unavailable,False,False,,raw/attempts/0052-browser-use-38-adam-paper-r1/
+fastbrowse,38-adam-paper,arXiv,1,unavailable,False,False,,raw/attempts/0053-fastbrowse-38-adam-paper-r1/
+jev-ultrafast,38-adam-paper,arXiv,1,unavailable,False,False,,raw/attempts/0054-jev-ultrafast-38-adam-paper-r1/
+browser-use,02-antikythera,Wikipedia,1,unavailable,False,False,,raw/attempts/0055-browser-use-02-antikythera-r1/
+jev-ultrafast,02-antikythera,Wikipedia,1,unavailable,False,False,,raw/attempts/0056-jev-ultrafast-02-antikythera-r1/
+fastbrowse,02-antikythera,Wikipedia,1,unavailable,False,False,,raw/attempts/0057-fastbrowse-02-antikythera-r1/
+jev-ultrafast,31-einstein,Quotes to Scrape,1,unavailable,False,False,,raw/attempts/0058-jev-ultrafast-31-einstein-r1/
+browser-use,31-einstein,Quotes to Scrape,1,unavailable,False,False,,raw/attempts/0059-browser-use-31-einstein-r1/
+fastbrowse,31-einstein,Quotes to Scrape,1,unavailable,False,False,,raw/attempts/0060-fastbrowse-31-einstein-r1/
+browser-use,08-itertools,Python docs,1,unavailable,False,False,,raw/attempts/0061-browser-use-08-itertools-r1/
+fastbrowse,08-itertools,Python docs,1,unavailable,False,False,,raw/attempts/0062-fastbrowse-08-itertools-r1/
+jev-ultrafast,08-itertools,Python docs,1,unavailable,False,False,,raw/attempts/0063-jev-ultrafast-08-itertools-r1/
+jev-ultrafast,18-numpy-ndarray,NumPy docs,1,unavailable,False,False,,raw/attempts/0064-jev-ultrafast-18-numpy-ndarray-r1/
+browser-use,18-numpy-ndarray,NumPy docs,1,unavailable,False,False,,raw/attempts/0065-browser-use-18-numpy-ndarray-r1/
+fastbrowse,18-numpy-ndarray,NumPy docs,1,unavailable,False,False,,raw/attempts/0066-fastbrowse-18-numpy-ndarray-r1/
+fastbrowse,47-rust-hashmap,Rust docs,1,unavailable,False,False,,raw/attempts/0067-fastbrowse-47-rust-hashmap-r1/
+jev-ultrafast,47-rust-hashmap,Rust docs,1,unavailable,False,False,,raw/attempts/0068-jev-ultrafast-47-rust-hashmap-r1/
+browser-use,47-rust-hashmap,Rust docs,1,unavailable,False,False,,raw/attempts/0069-browser-use-47-rust-hashmap-r1/
+browser-use,20-numpy-linspace,NumPy docs,1,unavailable,False,False,,raw/attempts/0070-browser-use-20-numpy-linspace-r1/
+jev-ultrafast,20-numpy-linspace,NumPy docs,1,unavailable,False,False,,raw/attempts/0071-jev-ultrafast-20-numpy-linspace-r1/
+fastbrowse,20-numpy-linspace,NumPy docs,1,unavailable,False,False,,raw/attempts/0072-fastbrowse-20-numpy-linspace-r1/
+jev-ultrafast,37-resnet-paper,arXiv,1,unavailable,False,False,,raw/attempts/0073-jev-ultrafast-37-resnet-paper-r1/
+browser-use,37-resnet-paper,arXiv,1,unavailable,False,False,,raw/attempts/0074-browser-use-37-resnet-paper-r1/
+fastbrowse,37-resnet-paper,arXiv,1,unavailable,False,False,,raw/attempts/0075-fastbrowse-37-resnet-paper-r1/
+browser-use,25-duckdb,GitHub,1,unavailable,False,False,,raw/attempts/0076-browser-use-25-duckdb-r1/
+jev-ultrafast,25-duckdb,GitHub,1,unavailable,False,False,,raw/attempts/0077-jev-ultrafast-25-duckdb-r1/
+fastbrowse,25-duckdb,GitHub,1,unavailable,False,False,,raw/attempts/0078-fastbrowse-25-duckdb-r1/
+fastbrowse,23-playwright,GitHub,1,unavailable,False,False,,raw/attempts/0079-fastbrowse-23-playwright-r1/
+browser-use,23-playwright,GitHub,1,unavailable,False,False,,raw/attempts/0080-browser-use-23-playwright-r1/
+jev-ultrafast,23-playwright,GitHub,1,unavailable,False,False,,raw/attempts/0081-jev-ultrafast-23-playwright-r1/
+fastbrowse,22-uv,GitHub,1,unavailable,False,False,,raw/attempts/0082-fastbrowse-22-uv-r1/
+jev-ultrafast,22-uv,GitHub,1,unavailable,False,False,,raw/attempts/0083-jev-ultrafast-22-uv-r1/
+browser-use,22-uv,GitHub,1,unavailable,False,False,,raw/attempts/0084-browser-use-22-uv-r1/
+fastbrowse,35-twain,Quotes to Scrape,1,unavailable,False,False,,raw/attempts/0085-fastbrowse-35-twain-r1/
+browser-use,35-twain,Quotes to Scrape,1,unavailable,False,False,,raw/attempts/0086-browser-use-35-twain-r1/
+jev-ultrafast,35-twain,Quotes to Scrape,1,unavailable,False,False,,raw/attempts/0087-jev-ultrafast-35-twain-r1/
+jev-ultrafast,50-rust-duration,Rust docs,1,unavailable,False,False,,raw/attempts/0088-jev-ultrafast-50-rust-duration-r1/
+fastbrowse,50-rust-duration,Rust docs,1,unavailable,False,False,,raw/attempts/0089-fastbrowse-50-rust-duration-r1/
+browser-use,50-rust-duration,Rust docs,1,unavailable,False,False,,raw/attempts/0090-browser-use-50-rust-duration-r1/
+browser-use,13-grid,MDN,1,unavailable,False,False,,raw/attempts/0091-browser-use-13-grid-r1/
+fastbrowse,13-grid,MDN,1,unavailable,False,False,,raw/attempts/0092-fastbrowse-13-grid-r1/
+jev-ultrafast,13-grid,MDN,1,unavailable,False,False,,raw/attempts/0093-jev-ultrafast-13-grid-r1/
+browser-use,39-bert-paper,arXiv,1,unavailable,False,False,,raw/attempts/0094-browser-use-39-bert-paper-r1/
+fastbrowse,39-bert-paper,arXiv,1,unavailable,False,False,,raw/attempts/0095-fastbrowse-39-bert-paper-r1/
+jev-ultrafast,39-bert-paper,arXiv,1,unavailable,False,False,,raw/attempts/0096-jev-ultrafast-39-bert-paper-r1/
+browser-use,46-rust-vec,Rust docs,1,unavailable,False,False,,raw/attempts/0097-browser-use-46-rust-vec-r1/
+fastbrowse,46-rust-vec,Rust docs,1,unavailable,False,False,,raw/attempts/0098-fastbrowse-46-rust-vec-r1/
+jev-ultrafast,46-rust-vec,Rust docs,1,unavailable,False,False,,raw/attempts/0099-jev-ultrafast-46-rust-vec-r1/
+browser-use,01-ada-lovelace,Wikipedia,1,unavailable,False,False,,raw/attempts/0100-browser-use-01-ada-lovelace-r1/
+fastbrowse,01-ada-lovelace,Wikipedia,1,unavailable,False,False,,raw/attempts/0101-fastbrowse-01-ada-lovelace-r1/
+jev-ultrafast,01-ada-lovelace,Wikipedia,1,unavailable,False,False,,raw/attempts/0102-jev-ultrafast-01-ada-lovelace-r1/
+jev-ultrafast,32-austen,Quotes to Scrape,1,unavailable,False,False,,raw/attempts/0103-jev-ultrafast-32-austen-r1/
+fastbrowse,32-austen,Quotes to Scrape,1,unavailable,False,False,,raw/attempts/0104-fastbrowse-32-austen-r1/
+browser-use,32-austen,Quotes to Scrape,1,unavailable,False,False,,raw/attempts/0105-browser-use-32-austen-r1/
+jev-ultrafast,10-dataclasses,Python docs,1,unavailable,False,False,,raw/attempts/0106-jev-ultrafast-10-dataclasses-r1/
+browser-use,10-dataclasses,Python docs,1,unavailable,False,False,,raw/attempts/0107-browser-use-10-dataclasses-r1/
+fastbrowse,10-dataclasses,Python docs,1,unavailable,False,False,,raw/attempts/0108-fastbrowse-10-dataclasses-r1/
+fastbrowse,14-array-map,MDN,1,unavailable,False,False,,raw/attempts/0109-fastbrowse-14-array-map-r1/
+browser-use,14-array-map,MDN,1,unavailable,False,False,,raw/attempts/0110-browser-use-14-array-map-r1/
+jev-ultrafast,14-array-map,MDN,1,unavailable,False,False,,raw/attempts/0111-jev-ultrafast-14-array-map-r1/
+fastbrowse,41-django-forms,Django docs,1,unavailable,False,False,,raw/attempts/0112-fastbrowse-41-django-forms-r1/
+jev-ultrafast,41-django-forms,Django docs,1,unavailable,False,False,,raw/attempts/0113-jev-ultrafast-41-django-forms-r1/
+browser-use,41-django-forms,Django docs,1,unavailable,False,False,,raw/attempts/0114-browser-use-41-django-forms-r1/
+fastbrowse,24-scikit-learn,GitHub,1,unavailable,False,False,,raw/attempts/0115-fastbrowse-24-scikit-learn-r1/
+browser-use,24-scikit-learn,GitHub,1,unavailable,False,False,,raw/attempts/0116-browser-use-24-scikit-learn-r1/
+jev-ultrafast,24-scikit-learn,GitHub,1,unavailable,False,False,,raw/attempts/0117-jev-ultrafast-24-scikit-learn-r1/
+jev-ultrafast,34-marilyn,Quotes to Scrape,1,unavailable,False,False,,raw/attempts/0118-jev-ultrafast-34-marilyn-r1/
+browser-use,34-marilyn,Quotes to Scrape,1,unavailable,False,False,,raw/attempts/0119-browser-use-34-marilyn-r1/
+fastbrowse,34-marilyn,Quotes to Scrape,1,unavailable,False,False,,raw/attempts/0120-fastbrowse-34-marilyn-r1/
+fastbrowse,19-numpy-svd,NumPy docs,1,unavailable,False,False,,raw/attempts/0121-fastbrowse-19-numpy-svd-r1/
+jev-ultrafast,19-numpy-svd,NumPy docs,1,unavailable,False,False,,raw/attempts/0122-jev-ultrafast-19-numpy-svd-r1/
+browser-use,19-numpy-svd,NumPy docs,1,unavailable,False,False,,raw/attempts/0123-browser-use-19-numpy-svd-r1/
+fastbrowse,12-intersection-observer,MDN,1,unavailable,False,False,,raw/attempts/0124-fastbrowse-12-intersection-observer-r1/
+jev-ultrafast,12-intersection-observer,MDN,1,unavailable,False,False,,raw/attempts/0125-jev-ultrafast-12-intersection-observer-r1/
+browser-use,12-intersection-observer,MDN,1,unavailable,False,False,,raw/attempts/0126-browser-use-12-intersection-observer-r1/
+browser-use,04-plate-tectonics,Wikipedia,1,unavailable,False,False,,raw/attempts/0127-browser-use-04-plate-tectonics-r1/
+fastbrowse,04-plate-tectonics,Wikipedia,1,unavailable,False,False,,raw/attempts/0128-fastbrowse-04-plate-tectonics-r1/
+jev-ultrafast,04-plate-tectonics,Wikipedia,1,unavailable,False,False,,raw/attempts/0129-jev-ultrafast-04-plate-tectonics-r1/
+browser-use,43-django-models,Django docs,1,unavailable,False,False,,raw/attempts/0130-browser-use-43-django-models-r1/
+jev-ultrafast,43-django-models,Django docs,1,unavailable,False,False,,raw/attempts/0131-jev-ultrafast-43-django-models-r1/
+fastbrowse,43-django-models,Django docs,1,unavailable,False,False,,raw/attempts/0132-fastbrowse-43-django-models-r1/
+fastbrowse,11-abortcontroller,MDN,1,unavailable,False,False,,raw/attempts/0133-fastbrowse-11-abortcontroller-r1/
+jev-ultrafast,11-abortcontroller,MDN,1,unavailable,False,False,,raw/attempts/0134-jev-ultrafast-11-abortcontroller-r1/
+browser-use,11-abortcontroller,MDN,1,unavailable,False,False,,raw/attempts/0135-browser-use-11-abortcontroller-r1/
+jev-ultrafast,30-philosophy-books,Books to Scrape,1,unavailable,False,False,,raw/attempts/0136-jev-ultrafast-30-philosophy-books-r1/
+browser-use,30-philosophy-books,Books to Scrape,1,unavailable,False,False,,raw/attempts/0137-browser-use-30-philosophy-books-r1/
+fastbrowse,30-philosophy-books,Books to Scrape,1,unavailable,False,False,,raw/attempts/0138-fastbrowse-30-philosophy-books-r1/
+browser-use,33-rowling,Quotes to Scrape,1,unavailable,False,False,,raw/attempts/0139-browser-use-33-rowling-r1/
+jev-ultrafast,33-rowling,Quotes to Scrape,1,unavailable,False,False,,raw/attempts/0140-jev-ultrafast-33-rowling-r1/
+fastbrowse,33-rowling,Quotes to Scrape,1,unavailable,False,False,,raw/attempts/0141-fastbrowse-33-rowling-r1/
+jev-ultrafast,27-mystery-books,Books to Scrape,1,unavailable,False,False,,raw/attempts/0142-jev-ultrafast-27-mystery-books-r1/
+fastbrowse,27-mystery-books,Books to Scrape,1,unavailable,False,False,,raw/attempts/0143-fastbrowse-27-mystery-books-r1/
+browser-use,27-mystery-books,Books to Scrape,1,unavailable,False,False,,raw/attempts/0144-browser-use-27-mystery-books-r1/
+fastbrowse,03-octopus,Wikipedia,1,unavailable,False,False,,raw/attempts/0145-fastbrowse-03-octopus-r1/
+jev-ultrafast,03-octopus,Wikipedia,1,unavailable,False,False,,raw/attempts/0146-jev-ultrafast-03-octopus-r1/
+browser-use,03-octopus,Wikipedia,1,unavailable,False,False,,raw/attempts/0147-browser-use-03-octopus-r1/
+jev-ultrafast,42-django-testing,Django docs,1,unavailable,False,False,,raw/attempts/0148-jev-ultrafast-42-django-testing-r1/
+fastbrowse,42-django-testing,Django docs,1,unavailable,False,False,,raw/attempts/0149-fastbrowse-42-django-testing-r1/
+browser-use,42-django-testing,Django docs,1,unavailable,False,False,,raw/attempts/0150-browser-use-42-django-testing-r1/

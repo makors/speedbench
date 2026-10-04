@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "16-httpx",
+  "category": "PyPI",
+  "repeat": 1,
+  "position": 34,
+  "artifact_dir": "results/initial-availability/attempts/0034-fastbrowse-16-httpx-r1",
+  "started_at": "2026-10-04T01:22:05.531070+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "44-django-cache",
+  "category": "Django docs",
+  "repeat": 1,
+  "position": 49,
+  "artifact_dir": "results/publication-availability/attempts/0049-fastbrowse-44-django-cache-r1",
+  "started_at": "2026-10-04T01:26:01.927070+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

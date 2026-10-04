@@ -1,0 +1,17 @@
+{
+  "agent": "jev-ultrafast",
+  "task_id": "19-numpy-svd",
+  "category": "NumPy docs",
+  "repeat": 1,
+  "position": 122,
+  "artifact_dir": "results/publication-availability/attempts/0122-jev-ultrafast-19-numpy-svd-r1",
+  "started_at": "2026-10-04T01:26:01.972864+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing TYPESAFE_API_KEY",
+    "missing TEXT_MODEL_API_KEY"
+  ]
+}

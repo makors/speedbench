@@ -1,0 +1,5 @@
+{
+  "browser-use": {"repo": "https://github.com/browser-use/browser-use", "commit": "7be96ed8bafa8dfe1eef228b59cf5c884b8b2431", "version": "0.13.10"},
+  "jev-ultrafast": {"repo": "https://github.com/browser-use/jev-ultrafast", "commit": "1231850a0bf1a0c0341fe408ef1668dbbfdfac46", "version": "0.1.0"},
+  "fastbrowse": {"repo": "https://github.com/agent-labs-dev/fastbrowse", "commit": "88c74b9ef0c202f78081309647ff6b4408dd6b17", "version": "0.5.17"}
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "12-intersection-observer",
+  "category": "MDN",
+  "repeat": 1,
+  "position": 124,
+  "artifact_dir": "results/initial-availability/attempts/0124-fastbrowse-12-intersection-observer-r1",
+  "started_at": "2026-10-04T01:22:05.571501+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

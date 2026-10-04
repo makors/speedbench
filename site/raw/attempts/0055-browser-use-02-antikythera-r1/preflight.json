@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "02-antikythera",
+  "category": "Wikipedia",
+  "repeat": 1,
+  "position": 55,
+  "artifact_dir": "results/publication-availability/attempts/0055-browser-use-02-antikythera-r1",
+  "started_at": "2026-10-04T01:26:01.930002+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

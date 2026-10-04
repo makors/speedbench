@@ -1,0 +1,17 @@
+{
+  "agent": "jev-ultrafast",
+  "task_id": "09-argparse",
+  "category": "Python docs",
+  "repeat": 1,
+  "position": 3,
+  "artifact_dir": "results/publication-availability/attempts/0003-jev-ultrafast-09-argparse-r1",
+  "started_at": "2026-10-04T01:26:01.902528+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing TYPESAFE_API_KEY",
+    "missing TEXT_MODEL_API_KEY"
+  ]
+}

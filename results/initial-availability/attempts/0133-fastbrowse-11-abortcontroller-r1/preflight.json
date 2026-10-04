@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "11-abortcontroller",
+  "category": "MDN",
+  "repeat": 1,
+  "position": 133,
+  "artifact_dir": "results/initial-availability/attempts/0133-fastbrowse-11-abortcontroller-r1",
+  "started_at": "2026-10-04T01:22:05.574715+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

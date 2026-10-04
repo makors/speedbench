@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "12-intersection-observer",
+  "category": "MDN",
+  "repeat": 1,
+  "position": 126,
+  "artifact_dir": "results/publication-availability/attempts/0126-browser-use-12-intersection-observer-r1",
+  "started_at": "2026-10-04T01:26:01.974993+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

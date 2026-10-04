@@ -1,0 +1,17 @@
+{
+  "agent": "jev-ultrafast",
+  "task_id": "16-numpy-mean",
+  "category": "NumPy docs",
+  "repeat": 1,
+  "position": 35,
+  "artifact_dir": "results/publication-availability/attempts/0035-jev-ultrafast-16-numpy-mean-r1",
+  "started_at": "2026-10-04T01:26:01.918456+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing TYPESAFE_API_KEY",
+    "missing TEXT_MODEL_API_KEY"
+  ]
+}

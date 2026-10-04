@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "14-array-map",
+  "category": "MDN",
+  "repeat": 1,
+  "position": 109,
+  "artifact_dir": "results/publication-availability/attempts/0109-fastbrowse-14-array-map-r1",
+  "started_at": "2026-10-04T01:26:01.963951+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

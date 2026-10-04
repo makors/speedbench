@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "20-numpy-linspace",
+  "category": "NumPy docs",
+  "repeat": 1,
+  "position": 70,
+  "artifact_dir": "results/publication-availability/attempts/0070-browser-use-20-numpy-linspace-r1",
+  "started_at": "2026-10-04T01:26:01.938379+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

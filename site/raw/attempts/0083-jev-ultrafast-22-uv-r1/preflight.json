@@ -1,0 +1,17 @@
+{
+  "agent": "jev-ultrafast",
+  "task_id": "22-uv",
+  "category": "GitHub",
+  "repeat": 1,
+  "position": 83,
+  "artifact_dir": "results/publication-availability/attempts/0083-jev-ultrafast-22-uv-r1",
+  "started_at": "2026-10-04T01:26:01.947394+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing TYPESAFE_API_KEY",
+    "missing TEXT_MODEL_API_KEY"
+  ]
+}

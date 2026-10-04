@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "38-adam-paper",
+  "category": "arXiv",
+  "repeat": 1,
+  "position": 52,
+  "artifact_dir": "results/publication-availability/attempts/0052-browser-use-38-adam-paper-r1",
+  "started_at": "2026-10-04T01:26:01.928865+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

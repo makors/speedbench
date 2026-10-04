@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "18-pydantic",
+  "category": "PyPI",
+  "repeat": 1,
+  "position": 66,
+  "artifact_dir": "results/initial-availability/attempts/0066-fastbrowse-18-pydantic-r1",
+  "started_at": "2026-10-04T01:22:05.544728+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

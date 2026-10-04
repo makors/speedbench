@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "20-pytest",
+  "category": "PyPI",
+  "repeat": 1,
+  "position": 70,
+  "artifact_dir": "results/initial-availability/attempts/0070-browser-use-20-pytest-r1",
+  "started_at": "2026-10-04T01:22:05.547156+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

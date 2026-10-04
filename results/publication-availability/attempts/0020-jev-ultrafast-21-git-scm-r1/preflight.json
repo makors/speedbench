@@ -1,0 +1,17 @@
+{
+  "agent": "jev-ultrafast",
+  "task_id": "21-git-scm",
+  "category": "GitHub",
+  "repeat": 1,
+  "position": 20,
+  "artifact_dir": "results/publication-availability/attempts/0020-jev-ultrafast-21-git-scm-r1",
+  "started_at": "2026-10-04T01:26:01.911666+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing TYPESAFE_API_KEY",
+    "missing TEXT_MODEL_API_KEY"
+  ]
+}

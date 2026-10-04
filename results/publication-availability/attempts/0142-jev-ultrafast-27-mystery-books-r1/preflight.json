@@ -1,0 +1,17 @@
+{
+  "agent": "jev-ultrafast",
+  "task_id": "27-mystery-books",
+  "category": "Books to Scrape",
+  "repeat": 1,
+  "position": 142,
+  "artifact_dir": "results/publication-availability/attempts/0142-jev-ultrafast-27-mystery-books-r1",
+  "started_at": "2026-10-04T01:26:01.983946+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing TYPESAFE_API_KEY",
+    "missing TEXT_MODEL_API_KEY"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "agent": "jev-ultrafast",
+  "task_id": "23-playwright",
+  "category": "GitHub",
+  "repeat": 1,
+  "position": 81,
+  "artifact_dir": "results/initial-availability/attempts/0081-jev-ultrafast-23-playwright-r1",
+  "started_at": "2026-10-04T01:22:05.551789+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing TYPESAFE_API_KEY",
+    "missing TEXT_MODEL_API_KEY"
+  ]
+}

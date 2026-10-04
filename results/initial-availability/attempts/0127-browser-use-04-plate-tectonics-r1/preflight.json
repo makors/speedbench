@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "04-plate-tectonics",
+  "category": "Wikipedia",
+  "repeat": 1,
+  "position": 127,
+  "artifact_dir": "results/initial-availability/attempts/0127-browser-use-04-plate-tectonics-r1",
+  "started_at": "2026-10-04T01:22:05.572778+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

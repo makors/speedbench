@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "40-diffusion-paper",
+  "category": "arXiv",
+  "repeat": 1,
+  "position": 25,
+  "artifact_dir": "results/initial-availability/attempts/0025-browser-use-40-diffusion-paper-r1",
+  "started_at": "2026-10-04T01:22:05.525660+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

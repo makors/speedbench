@@ -1,0 +1,17 @@
+{
+  "agent": "jev-ultrafast",
+  "task_id": "36-attention-paper",
+  "category": "arXiv",
+  "repeat": 1,
+  "position": 38,
+  "artifact_dir": "results/publication-availability/attempts/0038-jev-ultrafast-36-attention-paper-r1",
+  "started_at": "2026-10-04T01:26:01.921186+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing TYPESAFE_API_KEY",
+    "missing TEXT_MODEL_API_KEY"
+  ]
+}

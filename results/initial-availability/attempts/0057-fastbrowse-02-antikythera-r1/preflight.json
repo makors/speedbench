@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "02-antikythera",
+  "category": "Wikipedia",
+  "repeat": 1,
+  "position": 57,
+  "artifact_dir": "results/initial-availability/attempts/0057-fastbrowse-02-antikythera-r1",
+  "started_at": "2026-10-04T01:22:05.540009+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

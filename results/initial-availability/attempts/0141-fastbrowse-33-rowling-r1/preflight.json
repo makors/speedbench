@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "33-rowling",
+  "category": "Quotes to Scrape",
+  "repeat": 1,
+  "position": 141,
+  "artifact_dir": "results/initial-availability/attempts/0141-fastbrowse-33-rowling-r1",
+  "started_at": "2026-10-04T01:22:05.578417+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

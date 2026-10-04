@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "38-adam-paper",
+  "category": "arXiv",
+  "repeat": 1,
+  "position": 53,
+  "artifact_dir": "results/initial-availability/attempts/0053-fastbrowse-38-adam-paper-r1",
+  "started_at": "2026-10-04T01:22:05.538775+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

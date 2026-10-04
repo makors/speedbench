@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "05-braille",
+  "category": "Wikipedia",
+  "repeat": 1,
+  "position": 32,
+  "artifact_dir": "results/initial-availability/attempts/0032-browser-use-05-braille-r1",
+  "started_at": "2026-10-04T01:22:05.530245+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

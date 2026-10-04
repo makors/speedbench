@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "28-poetry-books",
+  "category": "Books to Scrape",
+  "repeat": 1,
+  "position": 7,
+  "artifact_dir": "results/initial-availability/attempts/0007-fastbrowse-28-poetry-books-r1",
+  "started_at": "2026-10-04T01:22:05.519290+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-04T01:26:01.896697+00:00",
+  "suite": "live-navigation-50-v1",
+  "task_count": 50,
+  "repeats": 1,
+  "seed": 1729,
+  "timeout_seconds": 180,
+  "max_steps": 60,
+  "agents": [
+    "browser-use",
+    "jev-ultrafast",
+    "fastbrowse"
+  ],
+  "task_selection": null,
+  "host": {
+    "system": "Darwin",
+    "release": "25.5.0",
+    "machine": "arm64",
+    "python": "3.13.5",
+    "cpu_count": 12
+  },
+  "source_hashes": {
+    "tasks.json": "a2b73c3bd99c13f45ff2f2fb91396d4947109ca0a641865de45b6d72f4065672",
+    "upstream.json": "c1e2177d043955d4b3d7cd0857f156ebe8dd188ad7083bad0a46282337605199",
+    "uv.lock": "33f734ebf5b03fad9354980202a65b46dc97e18c744b11e457c02893338ee79b",
+    "speedbench/__init__.py": "28d09832c7abeb065d48af90875a17957568a7eaa8ad0f63c5dbb78be217f8b6",
+    "speedbench/cdp.py": "a6b8e54b88d74e9d2bd6099700ec6a68ee80e7f550259fff3c8ee53787bc1b4f",
+    "speedbench/cli.py": "74fe3916854f201516d7f492decc068109bc373e48da25d011c5ceab5f82c982",
+    "speedbench/grading.py": "4377062e71dbba351d0ccdfe48fc4ca4919646e052843354299fa7eef14369a7",
+    "speedbench/report.py": "6c4d0080a35f00402db149ff97c64b4e0af25f2b97b9c94ae7040db8b056845d",
+    "speedbench/worker.py": "72712995cf659965ba3cb129fd516d01c67e84980486f38f3632d9193897769e",
+    "locks/browser-use.lock": "09256073e7f390390b1d22d2a87eafdedba2e41691aa90ae672d0e5ad1895406",
+    "locks/fastbrowse.lock": "1ef4796209b3991392a413bb8e3b09350fac9ae1f5e7c69eef1c69f8c610e1c8",
+    "locks/jev-ultrafast.lock": "31b22604601710b95b75ca6d1d19c2bce59a49f93515c9109b2e9b7643abe108"
+  },
+  "upstream": {
+    "browser-use": {
+      "repo": "https://github.com/browser-use/browser-use",
+      "commit": "7be96ed8bafa8dfe1eef228b59cf5c884b8b2431",
+      "version": "0.13.10"
+    },
+    "jev-ultrafast": {
+      "repo": "https://github.com/browser-use/jev-ultrafast",
+      "commit": "1231850a0bf1a0c0341fe408ef1668dbbfdfac46",
+      "version": "0.1.0"
+    },
+    "fastbrowse": {
+      "repo": "https://github.com/agent-labs-dev/fastbrowse",
+      "commit": "88c74b9ef0c202f78081309647ff6b4408dd6b17",
+      "version": "0.5.17"
+    }
+  },
+  "credential_presence": {
+    "OPENAI_API_KEY": false,
+    "OPENROUTER_API_KEY": false,
+    "TYPESAFE_API_KEY": false,
+    "TEXT_MODEL_API_KEY": false,
+    "AI_GATEWAY_API_KEY": false
+  },
+  "models": {
+    "SPEEDBENCH_BU_MODEL": "gpt-4.1-mini",
+    "TYPESAFE_MODEL": "jev-latest",
+    "TEXT_MODEL": "inception/mercury-2.5",
+    "FASTBROWSE_LLM_MODEL": "google/gemini-3.8-flash",
+    "FASTBROWSE_JEV_MODEL": "upstream default",
+    "FASTBROWSE_JEV_SOURCE": "automatic"
+  },
+  "timing": "Supervisor monotonic clock: worker launch through Chrome startup, agent execution, independent DOM/screenshot evidence, browser shutdown, and objective grading. Installs and report rendering excluded.",
+  "isolation": "Sequential; fresh Chrome process and profile for each attempt. Headless 1120x780. No benchmark-level retries.",
+  "selected_tasks": [
+    "01-ada-lovelace",
+    "02-antikythera",
+    "03-octopus",
+    "04-plate-tectonics",
+    "05-braille",
+    "06-pathlib",
+    "07-sqlite3",
+    "08-itertools",
+    "09-argparse",
+    "10-dataclasses",
+    "11-abortcontroller",
+    "12-intersection-observer",
+    "13-grid",
+    "14-array-map",
+    "15-http-429",
+    "16-numpy-mean",
+    "17-numpy-unique",
+    "18-numpy-ndarray",
+    "19-numpy-svd",
+    "20-numpy-linspace",
+    "21-git-scm",
+    "22-uv",
+    "23-playwright",
+    "24-scikit-learn",
+    "25-duckdb",
+    "26-travel-books",
+    "27-mystery-books",
+    "28-poetry-books",
+    "29-science-books",
+    "30-philosophy-books",
+    "31-einstein",
+    "32-austen",
+    "33-rowling",
+    "34-marilyn",
+    "35-twain",
+    "36-attention-paper",
+    "37-resnet-paper",
+    "38-adam-paper",
+    "39-bert-paper",
+    "40-diffusion-paper",
+    "41-django-forms",
+    "42-django-testing",
+    "43-django-models",
+    "44-django-cache",
+    "45-django-logging",
+    "46-rust-vec",
+    "47-rust-hashmap",
+    "48-rust-option",
+    "49-rust-result",
+    "50-rust-duration"
+  ]
+}

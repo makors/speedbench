@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "45-django-logging",
+  "category": "Django docs",
+  "repeat": 1,
+  "position": 22,
+  "artifact_dir": "results/initial-availability/attempts/0022-fastbrowse-45-django-logging-r1",
+  "started_at": "2026-10-04T01:22:05.524450+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

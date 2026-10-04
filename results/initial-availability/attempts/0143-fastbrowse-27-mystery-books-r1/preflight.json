@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "27-mystery-books",
+  "category": "Books to Scrape",
+  "repeat": 1,
+  "position": 143,
+  "artifact_dir": "results/initial-availability/attempts/0143-fastbrowse-27-mystery-books-r1",
+  "started_at": "2026-10-04T01:22:05.579121+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

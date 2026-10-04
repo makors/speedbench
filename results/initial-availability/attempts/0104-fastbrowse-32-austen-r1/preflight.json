@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "32-austen",
+  "category": "Quotes to Scrape",
+  "repeat": 1,
+  "position": 104,
+  "artifact_dir": "results/initial-availability/attempts/0104-fastbrowse-32-austen-r1",
+  "started_at": "2026-10-04T01:22:05.562531+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "37-resnet-paper",
+  "category": "arXiv",
+  "repeat": 1,
+  "position": 75,
+  "artifact_dir": "results/publication-availability/attempts/0075-fastbrowse-37-resnet-paper-r1",
+  "started_at": "2026-10-04T01:26:01.941487+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "agent": "jev-ultrafast",
+  "task_id": "46-rust-vec",
+  "category": "Rust docs",
+  "repeat": 1,
+  "position": 99,
+  "artifact_dir": "results/publication-availability/attempts/0099-jev-ultrafast-46-rust-vec-r1",
+  "started_at": "2026-10-04T01:26:01.957915+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing TYPESAFE_API_KEY",
+    "missing TEXT_MODEL_API_KEY"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "19-rich",
+  "category": "PyPI",
+  "repeat": 1,
+  "position": 123,
+  "artifact_dir": "results/initial-availability/attempts/0123-browser-use-19-rich-r1",
+  "started_at": "2026-10-04T01:22:05.571202+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

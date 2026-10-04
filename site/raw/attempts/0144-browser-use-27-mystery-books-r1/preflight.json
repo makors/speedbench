@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "27-mystery-books",
+  "category": "Books to Scrape",
+  "repeat": 1,
+  "position": 144,
+  "artifact_dir": "results/publication-availability/attempts/0144-browser-use-27-mystery-books-r1",
+  "started_at": "2026-10-04T01:26:01.985673+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

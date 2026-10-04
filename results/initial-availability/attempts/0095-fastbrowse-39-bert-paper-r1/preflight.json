@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "39-bert-paper",
+  "category": "arXiv",
+  "repeat": 1,
+  "position": 95,
+  "artifact_dir": "results/initial-availability/attempts/0095-fastbrowse-39-bert-paper-r1",
+  "started_at": "2026-10-04T01:22:05.557463+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "22-uv",
+  "category": "GitHub",
+  "repeat": 1,
+  "position": 84,
+  "artifact_dir": "results/publication-availability/attempts/0084-browser-use-22-uv-r1",
+  "started_at": "2026-10-04T01:26:01.948026+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

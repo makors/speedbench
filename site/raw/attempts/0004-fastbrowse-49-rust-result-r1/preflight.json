@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "49-rust-result",
+  "category": "Rust docs",
+  "repeat": 1,
+  "position": 4,
+  "artifact_dir": "results/publication-availability/attempts/0004-fastbrowse-49-rust-result-r1",
+  "started_at": "2026-10-04T01:26:01.902911+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

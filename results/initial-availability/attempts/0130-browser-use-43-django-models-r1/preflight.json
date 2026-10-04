@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "43-django-models",
+  "category": "Django docs",
+  "repeat": 1,
+  "position": 130,
+  "artifact_dir": "results/initial-availability/attempts/0130-browser-use-43-django-models-r1",
+  "started_at": "2026-10-04T01:22:05.573788+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

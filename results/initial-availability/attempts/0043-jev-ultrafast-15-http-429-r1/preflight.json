@@ -1,0 +1,17 @@
+{
+  "agent": "jev-ultrafast",
+  "task_id": "15-http-429",
+  "category": "MDN",
+  "repeat": 1,
+  "position": 43,
+  "artifact_dir": "results/initial-availability/attempts/0043-jev-ultrafast-15-http-429-r1",
+  "started_at": "2026-10-04T01:22:05.533812+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing TYPESAFE_API_KEY",
+    "missing TEXT_MODEL_API_KEY"
+  ]
+}

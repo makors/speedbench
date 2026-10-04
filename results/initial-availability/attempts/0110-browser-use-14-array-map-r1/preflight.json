@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "14-array-map",
+  "category": "MDN",
+  "repeat": 1,
+  "position": 110,
+  "artifact_dir": "results/initial-availability/attempts/0110-browser-use-14-array-map-r1",
+  "started_at": "2026-10-04T01:22:05.565456+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

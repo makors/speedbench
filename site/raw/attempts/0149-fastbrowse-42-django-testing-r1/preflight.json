@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "42-django-testing",
+  "category": "Django docs",
+  "repeat": 1,
+  "position": 149,
+  "artifact_dir": "results/publication-availability/attempts/0149-fastbrowse-42-django-testing-r1",
+  "started_at": "2026-10-04T01:26:01.988763+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}

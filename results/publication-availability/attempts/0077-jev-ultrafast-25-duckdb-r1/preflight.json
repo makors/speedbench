@@ -1,0 +1,17 @@
+{
+  "agent": "jev-ultrafast",
+  "task_id": "25-duckdb",
+  "category": "GitHub",
+  "repeat": 1,
+  "position": 77,
+  "artifact_dir": "results/publication-availability/attempts/0077-jev-ultrafast-25-duckdb-r1",
+  "started_at": "2026-10-04T01:26:01.942829+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing TYPESAFE_API_KEY",
+    "missing TEXT_MODEL_API_KEY"
+  ]
+}

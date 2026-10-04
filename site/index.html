@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="SpeedBench: an auditable end-to-end comparison of Browser Use, Jev Ultrafast, and fastbrowse on 50 original live-web navigation tasks.">
+<title>SpeedBench — Browser agents, on the clock.</title>
+<link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+<header><a class="brand" href="#"><span class="logo">S/</span> SpeedBench</a><nav aria-label="Main"><a href="#leaderboard">Leaderboard</a><a href="#tasks">Tasks</a><a href="#protocol">Protocol</a><a href="https://github.com/makors/speedbench">Source ↗</a></nav></header>
+<main>
+<section class="hero"><div class="eyebrow"><span class="dot"></span> OPEN BENCHMARK / LIVE WEB / V1</div>
+<h1>Browser agents,<br><span>on the clock.</span></h1>
+<p class="intro">Fifty original tasks. Three browser agents. One end-to-end clock.<br>Every result comes with the evidence to check it.</p>
+<div class="hero-actions"><a class="primary" href="#leaderboard">Explore the results <span>↓</span></a><a href="https://github.com/makors/speedbench#run-it">Run it yourself ↗</a></div>
+<div class="stats"><div><strong>50</strong><span>original tasks</span></div><div><strong>10</strong><span>live websites</span></div><div><strong>3</strong><span>agent implementations</span></div><div><strong id="measured">—</strong><span>measured attempts</span></div></div>
+</section>
+<section id="leaderboard"><div class="section-heading"><div><div class="eyebrow">01 / THE COMPARISON</div><h2>Speed needs a success rate.</h2></div><a href="results.csv" download>Download CSV ↓</a></div>
+<div id="notice" class="notice" role="status">Loading the recorded run…</div>
+<div class="table-wrap"><table class="leaderboard"><caption class="sr-only">Agent comparison from recorded attempts</caption><thead><tr><th>Rank / Agent</th><th>Passed / attempted</th><th>Success rate</th><th>Median / passes</th><th>P95 / passes</th><th>Penalized mean</th></tr></thead><tbody id="summary"></tbody></table></div>
+<p class="table-note">Ranks require all 50 tasks for all three agents. Failures count. Successful-run latency is shown beside reliability; failed attempts receive the time cap in the penalized mean.</p>
+<div class="evidence-links"><a href="raw/manifest.json">Run manifest ↗</a><a href="raw/results.jsonl" download>All raw records ↓</a><a href="raw/sha256.json">Artifact checksums ↗</a></div></section>
+<section id="tasks"><div class="section-heading"><div><div class="eyebrow">02 / THE TASKS & EVIDENCE</div><h2>Nothing behind the numbers.</h2></div><span class="muted" id="result-count"></span></div>
+<div class="filters"><label>Search tasks<input id="search" type="search" placeholder="Try Python, poetry, or AbortController…"></label><label>Agent<select id="agent"><option value="">All agents</option><option>browser-use</option><option>jev-ultrafast</option><option>fastbrowse</option></select></label><label>Status<select id="status"><option value="">All statuses</option><option>passed</option><option>failed</option><option>timeout</option><option>error</option><option>unavailable</option></select></label></div>
+<div class="table-wrap task-table"><table><caption class="sr-only">Filterable task-level records with raw evidence links</caption><thead><tr><th><button id="sort-task">Task ↕</button></th><th>Agent</th><th>Status</th><th><button id="sort-time">End-to-end ↕</button></th><th>Evidence</th></tr></thead><tbody id="records"></tbody></table></div>
+<details><summary>Browse all 50 original task prompts</summary><div id="task-catalog"></div></details>
+</section>
+<section id="protocol"><div class="eyebrow">03 / THE PROTOCOL</div><h2>A benchmark you can reproduce.</h2><div class="protocol-grid">
+<article><span class="number">01</span><h3>Time the whole job</h3><p>The supervisor starts its monotonic clock before launching the worker. Imports, fresh Chrome startup, navigation, model calls, evidence collection, shutdown, and grading all count. Dependency installs do not.</p></article>
+<article><span class="number">02</span><h3>Check the actual page</h3><p>Success requires a loaded document, the expected URL, and a visible matching semantic heading. A separate read-only CDP collector records the final DOM and screenshot. An agent’s “done” is never the grader.</p></article>
+<article><span class="number">03</span><h3>Keep the failures</h3><p>Randomized, sequential agent order. Fresh Chrome profile for every attempt. No benchmark retries. Timeouts and errors remain in the denominator; missing credentials stay visibly unmeasured.</p></article>
+<article><span class="number">04</span><h3>Compare the declared stacks</h3><p>These are 50 navigation goals on ten live sites, not a general workflow or extraction benchmark. Agents use declared model stacks and pinned source commits. Jev’s transport is adapted to the shared Chrome launcher; its policy is unchanged.</p></article>
+</div><div class="run-meta"><span id="run-id">Run: —</span><span id="run-settings">—</span><a href="https://github.com/makors/speedbench/blob/main/docs/METHODOLOGY.md">Full methodology ↗</a></div></section>
+</main><footer><span><b>SpeedBench</b> / Evidence before rankings.</span><a href="https://github.com/makors/speedbench">MIT · Source on GitHub ↗</a></footer>
+</body></html>

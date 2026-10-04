@@ -1,0 +1,16 @@
+{
+  "agent": "browser-use",
+  "task_id": "10-dataclasses",
+  "category": "Python docs",
+  "repeat": 1,
+  "position": 107,
+  "artifact_dir": "results/publication-availability/attempts/0107-browser-use-10-dataclasses-r1",
+  "started_at": "2026-10-04T01:26:01.963010+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENAI_API_KEY"
+  ]
+}

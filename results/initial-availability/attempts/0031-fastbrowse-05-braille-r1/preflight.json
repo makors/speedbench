@@ -1,0 +1,16 @@
+{
+  "agent": "fastbrowse",
+  "task_id": "05-braille",
+  "category": "Wikipedia",
+  "repeat": 1,
+  "position": 31,
+  "artifact_dir": "results/initial-availability/attempts/0031-fastbrowse-05-braille-r1",
+  "started_at": "2026-10-04T01:22:05.529947+00:00",
+  "passed": false,
+  "status": "unavailable",
+  "attempted": false,
+  "seconds": null,
+  "reasons": [
+    "missing OPENROUTER_API_KEY"
+  ]
+}
